@@ -7,7 +7,7 @@
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode: 
         dummyHead = ListNode(0)
-        curr = result
+        curr = dummyHead
         carry = 0
         while l1 or l2 or carry: # O(n)
             val1 = (l1.val if l1 else 0)
